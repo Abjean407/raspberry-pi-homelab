@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.*
+secrets.*
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Local backups and database data
+*.backup
+*.bak
+.influxdb/
+influxdb-data/
+
+# Arduino / PlatformIO local files
+.vscode/
+.pio/
+
+# Logs
+*.log
